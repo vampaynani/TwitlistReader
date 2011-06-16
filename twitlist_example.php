@@ -62,7 +62,7 @@ include_once('TwitlistReader.php');
 <?php
 $twitList = new TwitlistReader();
 $twitList->getListsFrom("eixha");
-$twitList->getHTMLStatuses("PATTS");
+echo $twitList->getHTMLStatuses("PATTS");
 ?>
 </body>
 </html>

@@ -46,7 +46,7 @@ class TwitlistReader{
 			$html_string .= "</div>";
 		}
 		$html_string .= "</div>";
-		echo $this->html_statuses = $html_string;
+		$this->html_statuses = $html_string;
 	}
 	
 	private function getListID($list_name){

@@ -1,0 +1,17 @@
+TwitlistReader 
+Lee listas pœblicas de usuarios de Twitter.
+
+getListsFrom
+Get public lists from a Twitter user.
+@param user_screen_name the user nickname on Twitter.
+@return an Array of lists.
+
+getListsStatuses
+Get the users statuses from a list.
+@param list_name the list name on Twitter.
+@return an Array of statuses.
+
+getHTMLStatuses
+Get an HTML string of the users statuses from a list.
+@param list_name the list name on Twitter.
+@return an html string with al the statuses, nickname, text and date from each one.
