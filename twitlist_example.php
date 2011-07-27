@@ -61,8 +61,8 @@ include_once('TwitlistReader.php');
 <body>
 <?php
 $twitList = new TwitlistReader();
-$twitList->getListsFrom("eixha");
-echo $twitList->getHTMLStatuses("PATTS");
+$twitList->getListsFrom("user_screen_name");
+echo $twitList->getHTMLStatuses("name_of_the_user_list");
 ?>
 </body>
 </html>
